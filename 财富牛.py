@@ -1,7 +1,7 @@
 """
 网上收集的脚本, 代码请勿用于非法盈利,一切与本人无关,该代码仅用于学习交流,请阅览下载的24小时内必须删除代码
 cron: 0 8 * * *
-const $ = new Env("统一茄皇二期");
+const $ = new Env("财富牛");
 """
 import requests
 import time
