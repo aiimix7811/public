@@ -1,12 +1,8 @@
 /**
  *  https://ypapp.cnnb.com.cn/yongpai-user/api/duiba/autologin  链接下的userId
  * 更新时间 1.16 自动获取抽奖ID
- 网上收集的脚本, 代码请勿用于非法盈利,一切与本人无关,该代码仅用于学习交流,请阅览下载的24小时内必须删除代码
- cron: 0 10 * * *
-const $ = new Env("涌派");
- 
  */
-const yongpai = "xxxx#xxxx#xxxx@qq.com#xxxx"//格式为userId#deviceId支付宝账号#姓名 多账户&
+const yongpai = "xxxxx#xxxxxx#xxxxxxx#xxxxxx"//格式为userId#deviceId支付宝账号#姓名 多账户&
 //手动点赞文章后https://ypapp.cnnb.com.cn/yongpai-ugc/api/praise/save_news?deviceId=的值 就是deviceId
 //deviceId 一般是16位  必须真机抓 瞎写的的点赞不成功
 const axios = require("axios").default;
